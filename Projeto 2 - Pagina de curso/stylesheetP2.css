@@ -1,0 +1,138 @@
+
+body {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section-header {
+    margin: 0px;
+    padding: 10px;
+    background: url(ProjetoCSS-inicio/imagens/bg-3.jpg) no-repeat center center fixed;
+    background-color: black;
+    height: 520px;
+    background-size: cover;
+    
+}
+
+
+
+ul {
+    
+    text-align: right;
+    margin-right: 15px;
+    
+}
+
+li {
+    display: inline-block;
+}
+
+.section-header a {
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    margin-left: 5px;
+    color: white;
+    background-color: #cccccc31;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    display: block;
+}
+
+a:hover {
+    background-color: #ccccccbc;
+
+}
+
+.div-header {
+    margin-top: 160px;
+}
+
+.div-header h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.div-header p {
+    background-color: rgba(0, 0, 0, 0.549);
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 8px;
+    width: 40%;
+    margin: auto;
+
+}
+
+.section-main {
+    background-color: #d7d0d0; 
+    margin: 0px;
+    width: 100%;
+    /* height: 750px; */
+    /* padding: 1%; */
+    /* background-size: cover;   */
+
+}
+
+main {
+    padding: 2%;
+
+}
+
+.post {
+    background-color: white;
+    padding: 10px;
+    margin: auto; 
+    width: 85%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+
+}
+
+main h2 { 
+    background-color: #e2dadab9;
+    padding: 8px;
+    text-transform: capitalize;
+    text-align: left;
+    border-bottom: 2px solid #898484b9 ;
+}
+
+main p {
+    text-align: left;
+}
+
+main a {
+    text-align: left;
+    padding: 5px;
+    font-size: small;
+    text-transform: uppercase;
+    background-color: #6a6a6a7b;
+    border: 1px solid #38383831;
+    margin: 5%;
+    margin-left: 0px;
+    border-radius: 2px;
+    width: fit-content;
+}
+
+.section-footer, footer {
+    background: no-repeat right bottom fixed #444444;
+    margin: auto;
+    background-size: cover;
+    width: 100%;
+}
+footer p{ 
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    letter-spacing: 2px;
+}
+
+

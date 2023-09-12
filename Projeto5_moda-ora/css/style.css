@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 62,5%;
+}
+
+:root {
+    --fonteTitulo: 'Belleza', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    
+
+}
+
+header {
+    min-width: 50vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    background-color: #162028;
+}
+
+.headerH1 {
+    font-family: var(--fonteTitulo);
+    color: white;
+    margin-left: 2rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    min-width: 12rem;
+}
+
+.headerUl {
+    display: flex;
+    gap: .1rem;
+}
+
+.headerLi {
+    height: 100%;
+    min-width: 8rem;
+}
+
+.headerUl .headerLi a{
+    padding: 1rem;
+    text-transform: uppercase;
+    color: #425564;
+    font-size: .7rem;
+    transition: all .5s ease;
+    letter-spacing: .2rem;
+
+}
+
+.headerUl .headerLi a:hover {
+    font-size: .8rem;
+    color: #637887;
+}
+
+.sectionImg img {
+   min-width: 100vw;
+    
+}
+
+.sectionMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.sectionMain .mainH2 {
+    font-family: var(--fonteTitulo);
+    letter-spacing: .1rem;
+    min-width: 30rem;
+    margin: 6rem 0 1.5rem;
+}
+
+.sectionMain .paragrafoMain {
+    color: #555;
+    width: 40rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.sectionMain ul {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.sectionMain li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    font-weight: lighter;
+}
+
+.sectionMain h3 {
+    letter-spacing: 0.2rem;
+    opacity: .7;
+}
+
+.sectionPos {
+    width: 100vw;
+    height:100vh;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem; 
+}
+
+.sectionPos h3 {
+    margin: 2rem;
+    min-width: 20rem;
+}
+.sectionPos p {
+    min-width: 30rem;
+}
+
+footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

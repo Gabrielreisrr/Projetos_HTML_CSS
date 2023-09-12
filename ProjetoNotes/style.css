@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 1rem;
+    justify-content: space-between;
+    /* border: 3px solid black; */
+}
+
+.container div {
+    flex-basis: calc(33% - 3rem);
+    flex-grow: 1;
+    background-color: antiquewhite;
+    padding: 1rem; 
+    box-shadow: 4px 4px 5px black;
+}
+
+.style1 {
+    
+    background-image: linear-gradient(135deg, brown 20px,transparent 1px);
+}
+
+.style2 {
+    background-image: linear-gradient(135deg, brown 50%, rgb(160, 160, 160) 50%);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+
+.style3 {
+    background-image: linear-gradient(135deg, brown 50%, rgb(160, 160, 160) 50%);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.style3::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left:0;
+    background-image: linear-gradient(135deg, transparent 50%, rgb(160, 160, 160) 50%);
+    filter: drop-shadow( 2px 2px 3px  black);
+}
